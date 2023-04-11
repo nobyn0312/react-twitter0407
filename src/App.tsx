@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import styles from './App.module.css'
 function App() {
   return (
     <div className="App">
@@ -8,5 +8,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
